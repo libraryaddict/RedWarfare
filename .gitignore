@@ -1,0 +1,35 @@
+# Eclipse
+*.classpath
+*.project
+*.settings
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+out/
+bin/
+redwarfare-arcade/target/
+redwarfare-build/target/
+redwarfare-bungee/target/
+redwarfare-core/target/
+redwarfare-global/target/
+redwarfare-hub/target/
+redwarfare-server-manager/target/
+redwarfare-server-spinner/target/
+redwarfare-arcade/bin/
+redwarfare-build/bin/
+redwarfare-bungee/bin/
+redwarfare-core/bin/
+redwarfare-global/bin/
+redwarfare-hub/bin/
+redwarfare-server-manager/bin/
+redwarfare-server-spinner/bin/
+buildNumber.properties

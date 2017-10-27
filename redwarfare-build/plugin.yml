@@ -1,0 +1,5 @@
+name: Build
+main: me.libraryaddict.build.Build
+version: §7Running build §l${buildNumber}§7, built on §l${timestamp}
+depend: [ProtocolLib]
+softdepend: [WorldEdit]

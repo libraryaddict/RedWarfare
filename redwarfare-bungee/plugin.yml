@@ -1,0 +1,5 @@
+name: Bungee
+main: me.libraryaddict.bungee.Bungee
+author: libraryaddict
+version: §7Running build §l${buildNumber}§7, built on §l${timestamp}
+load: startup

@@ -1,0 +1,5 @@
+name: Hub
+main: me.libraryaddict.hub.Hub
+version: §7Running build §l${buildNumber}§7, built on §l${timestamp}
+depend: [ProtocolLib, LibsDisguises]
+load: startup
