@@ -65,6 +65,15 @@ public class CommandUpdateRank extends SimpleCommand
                     + "To just add/remove their rank, don't provide a third parameter. To change when the rank expires, use 30d = 30 days, 1y = 1 year, perm = permanant. Etc.");
             return;
         }
+        try {
+            if (Rank.valueOf(args[1].toUpperCase()) == Rank.ALL) {
+                player.sendMessage(C.Red + C.Bold + "Error " + C.Gray + "The player already owns rank 'ALL'");
+                return;
+            }
+        } catch (IllegalArgumentException ex) {
+            player.sendMessage(C.Red + C.Bold + "Error " + C.Gray + "The rank '" + args[1] + "' is not a valid rank");
+            return;
+        }
 
         new BukkitRunnable()
         {
