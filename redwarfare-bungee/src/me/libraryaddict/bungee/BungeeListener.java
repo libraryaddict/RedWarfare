@@ -149,8 +149,8 @@ public class BungeeListener implements Listener
 
         if (settings.getProtocol().isEmpty())
         {
-            protocol = new Protocol("1.10.2", 210);
-            // protocol = orig.getVersion();
+            //protocol = new Protocol("1.10.2", 210);
+             protocol = orig.getVersion();
         }
         else
         {
@@ -196,7 +196,7 @@ public class BungeeListener implements Listener
             public void run()
             {
                 /*RedisFetchPlayerData playerData = new RedisFetchPlayerData(uuid);
-                
+
                 if (playerData.isSuccess() && playerData.getPlayerData() != null)
                 {
                     new MysqlSavePlayerData(playerData.getPlayerData());
