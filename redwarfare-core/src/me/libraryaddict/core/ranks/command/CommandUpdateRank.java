@@ -66,20 +66,6 @@ public class CommandUpdateRank extends SimpleCommand
             return;
         }
 
-        try
-        {
-            Rank toGive = Rank.valueOf(args[1].toUpperCase());
-            assert toGive != Rank.ALL;
-
-            if (toGive == Rank.OWNER && !player.getName().equals("libraryaddict"))
-                throw new Exception("d");
-        }
-        catch (Exception ex)
-        {
-            player.sendMessage(C.Red + C.Bold + "Error " + C.Gray + "The rank '" + args[1] + "' is not a valid rank");
-            return;
-        }
-
         new BukkitRunnable()
         {
             public void run()
