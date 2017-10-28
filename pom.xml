@@ -53,10 +53,6 @@
             <url>http://repo.md-5.net/content/groups/public/</url>
         </repository>
         <repository>
-            <id>voxel-repo</id>
-            <url>http://vault.voxelmodpack.com/content/groups/public/</url>
-        </repository>
-        <repository>
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </repository>
