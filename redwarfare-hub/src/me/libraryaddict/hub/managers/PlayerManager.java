@@ -112,7 +112,7 @@ public class PlayerManager extends MiniPlugin {
 
         team.addPlayer(p);
 
-        p.sendMessage(C.Red
+/*        p.sendMessage(C.Red
                 + "Red Warfare will be shutting down in the coming few months, it costs money to run and I'm currently paying for it out of my own pocket.");
 
         if (getManager().getRank().getRank(p).hasRank(Rank.VIP)) {
@@ -122,7 +122,7 @@ public class PlayerManager extends MiniPlugin {
                     + (Preference.getPreference(p, CommandRefundMe.REFUND) ? C.DGreen + "Yes" : C.DRed + "No"))
                             .command("/refundme");
             message.send(p);
-        }
+        }*/
     }
 
     @EventHandler
