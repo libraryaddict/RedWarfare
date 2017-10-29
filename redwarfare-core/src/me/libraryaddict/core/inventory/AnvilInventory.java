@@ -41,7 +41,8 @@ public abstract class AnvilInventory extends BasicInventory {
             super(entityhuman.inventory, entityhuman.world, new BlockPosition(0, 0, 0), entityhuman);
         }
 
-        public boolean a(EntityHuman human) {
+        @Override
+        public boolean canUse(EntityHuman human) {
             return true;
         }
 
