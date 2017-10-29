@@ -41,15 +41,12 @@ public class MysqlManager {
     public MysqlManager(int idle) {
         System.out.println("Enabling: Mysql Manager");
 
-        if (true)
-            throw new UnsupportedOperationException("No SQL database has been setup");
-
         try {
             _mysqlPool = new ComboPooledDataSource();
             _mysqlPool.setDriverClass("com.mysql.jdbc.Driver"); // loads the jdbc driver
-            _mysqlPool.setJdbcUrl("jdbc:mysql://149.56.107.96/RedWarfare?useSSL=false");
+            _mysqlPool.setJdbcUrl("jdbc:mysql://127.0.0.1/RedWarfare?useSSL=false");
             _mysqlPool.setUser("root");
-            _mysqlPool.setPassword("mjLTLspvFNAJXnYMSorp");
+            _mysqlPool.setPassword("Debian!");
             _mysqlPool.setTestConnectionOnCheckout(true);
             _mysqlPool.setPreferredTestQuery("DO 1");
             _mysqlPool.setMinPoolSize(idle);

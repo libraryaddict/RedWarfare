@@ -49,21 +49,22 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <groupId>com.thevoxelbox</groupId>
+            <artifactId>VoxelSniper</artifactId>
+        </dependency>
+        <dependency>
             <groupId>commons-validator</groupId>
             <artifactId>commons-validator</artifactId>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.thevoxelbox</groupId>
-            <artifactId>VoxelSniper</artifactId>
         </dependency>
     </dependencies>
 
     <build>
         <resources>
             <resource>
-                <directory/>
+                <targetPath>.</targetPath>
                 <filtering>true</filtering>
+                <directory>${project.basedir}</directory>
                 <includes>
                     <include>build_ssh.ppk</include>
                     <include>plugin.yml</include>

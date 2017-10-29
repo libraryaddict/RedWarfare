@@ -50,11 +50,14 @@
 	<build>
 		<resources>
 			<resource>
-				<directory />
+				<targetPath>.</targetPath>
+				<filtering>true</filtering>
+				<directory>${project.basedir}</directory>
 				<includes>
 					<include>ascii.png</include>
 				</includes>
 			</resource>
 		</resources>
 	</build>
+
 </project>

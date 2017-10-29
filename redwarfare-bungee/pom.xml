@@ -12,6 +12,20 @@
 	<artifactId>redwarfare-bungee</artifactId>
 	<name>Bungee</name>
 
+
+	<build>
+		<resources>
+			<resource>
+				<targetPath>.</targetPath>
+				<filtering>true</filtering>
+				<directory>${project.basedir}</directory>
+				<includes>
+					<include>plugin.yml</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+
 	<dependencies>
 		<dependency>
 			<groupId>net.md-5</groupId>

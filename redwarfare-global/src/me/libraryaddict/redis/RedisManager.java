@@ -51,8 +51,8 @@ public class RedisManager {
         }
     }
 
-    private String _password = "";
-    private String _url = "";
+    private String _password = "Debian!";
+    private String _url = "localhost";
 
     public RedisManager() {
         this(4);
