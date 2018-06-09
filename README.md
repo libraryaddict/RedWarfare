@@ -12,4 +12,10 @@ You may notice that some references to outside projects are missing, namely a se
 
 In the process of updating to 1.12.2 some features may have been broken.
 
+
 The maven structure is a bit weird and doesn't follow convention, when I created the project the folders were not created properly and I didn't want to waste time debugging a minor issue.
+
+
+Another point of interest is the exception handling. Namely: UtilError.handle(e);
+
+I wasn't sure how to log all exceptions and was trying this, by the time I realized it was a bad method it was not worth changing back.
