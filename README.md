@@ -11,3 +11,5 @@ For the build server, it should require some work to get running.
 You may notice that some references to outside projects are missing, namely a server spinner and manager. Those managed the servers themselves.
 
 In the process of updating to 1.12.2 some features may have been broken.
+
+The maven structure is a bit weird and doesn't follow convention, when I created the project the folders were not created properly and I didn't want to waste time debugging a minor issue.
